@@ -1,0 +1,46 @@
+2017-07-05 12:44:12,453 INFO  [App] Application starting
+2017-07-05 12:44:12,453 INFO  [TwitterService] Twitter service initialising
+2017-07-05 12:44:12,453 INFO  [TwitterService] Twitter service executing
+2017-07-05 12:44:12,453 INFO  [TwitterService] Twitter service executed
+2017-07-05 12:58:57,908 INFO  [App] Application starting
+2017-07-05 12:58:57,908 INFO  [TwitterService] Twitter service initialising
+2017-07-05 12:58:57,908 INFO  [TwitterService] Twitter service executing
+2017-07-05 12:58:58,088 DEBUG [HttpClientImpl] Request: 
+2017-07-05 12:58:58,088 DEBUG [HttpClientImpl] POST https://api.twitter.com/1.1/statuses/update.json
+2017-07-05 12:58:58,088 DEBUG [OAuthAuthorization] OAuth base string: POST&https%3A%2F%2Fapi.twitter.com%2F1.1%2Fstatuses%2Fupdate.json&include_entities%3Dtrue%26include_ext_alt_text%3Dtrue%26oauth_consumer_key%3DaKXux9tBEO8lbcIKyxgc8LQd1%26oauth_nonce%3D-512214619%26oauth_signature_method%3DHMAC-SHA1%26oauth_timestamp%3D1499230738%26oauth_token%3D827777769895440385-4ped298lwWuvIUrHpmaSR5TXBBtnZOo%26oauth_version%3D1.0%26status%3DStill%2520under%2520maintenance%253F%2520Oh%2520dear%2521
+2017-07-05 12:58:58,147 DEBUG [OAuthAuthorization] OAuth signature: Ay5vwQpKP3xdRdL6Ew/ODpoev94=
+2017-07-05 12:58:58,147 DEBUG [HttpClientImpl] Authorization: *************************************************************************************************************************************************************************************************************************************************************************************
+2017-07-05 12:58:58,147 DEBUG [HttpClientImpl] X-Twitter-Client-URL: http://twitter4j.org/en/twitter4j-4.0.6.xml
+2017-07-05 12:58:58,147 DEBUG [HttpClientImpl] X-Twitter-Client: Twitter4J
+2017-07-05 12:58:58,147 DEBUG [HttpClientImpl] Accept-Encoding: gzip
+2017-07-05 12:58:58,147 DEBUG [HttpClientImpl] User-Agent: twitter4j http://twitter4j.org/ /4.0.6
+2017-07-05 12:58:58,147 DEBUG [HttpClientImpl] X-Twitter-Client-Version: 4.0.6
+2017-07-05 12:58:58,147 DEBUG [HttpClientImpl] Post Params: status=Still%20under%20maintenance%3F%20Oh%20dear%21&include_entities=true&include_ext_alt_text=true
+2017-07-05 12:58:58,853 DEBUG [HttpClientImpl] Response: 
+2017-07-05 12:58:58,855 DEBUG [HttpClientImpl] HTTP/1.1 200 OK
+2017-07-05 12:58:58,855 DEBUG [HttpClientImpl] content-type: application/json;charset=utf-8
+2017-07-05 12:58:58,855 DEBUG [HttpClientImpl] x-frame-options: SAMEORIGIN
+2017-07-05 12:58:58,855 DEBUG [HttpClientImpl] last-modified: Wed, 05 Jul 2017 04:58:58 GMT
+2017-07-05 12:58:58,856 DEBUG [HttpClientImpl] status: 200 OK
+2017-07-05 12:58:58,856 DEBUG [HttpClientImpl] x-response-time: 285
+2017-07-05 12:58:58,856 DEBUG [HttpClientImpl] content-encoding: gzip
+2017-07-05 12:58:58,856 DEBUG [HttpClientImpl] date: Wed, 05 Jul 2017 04:58:58 GMT
+2017-07-05 12:58:58,857 DEBUG [HttpClientImpl] x-transaction: 00fd5e2400aed435
+2017-07-05 12:58:58,857 DEBUG [HttpClientImpl] pragma: no-cache
+2017-07-05 12:58:58,857 DEBUG [HttpClientImpl] cache-control: no-cache, no-store, must-revalidate, pre-check=0, post-check=0
+2017-07-05 12:58:58,857 DEBUG [HttpClientImpl] x-connection-hash: 7115814a23c6f277466a0a19b0389c02
+2017-07-05 12:58:58,858 DEBUG [HttpClientImpl] x-content-type-options: nosniff
+2017-07-05 12:58:58,858 DEBUG [HttpClientImpl] x-xss-protection: 1; mode=block
+2017-07-05 12:58:58,858 DEBUG [HttpClientImpl] expires: Tue, 31 Mar 1981 05:00:00 GMT
+2017-07-05 12:58:58,858 DEBUG [HttpClientImpl] set-cookie: guest_id=v1%3A149923073841932185; Domain=.twitter.com; Path=/; Expires=Fri, 05-Jul-2019 04:58:58 UTC
+2017-07-05 12:58:58,858 DEBUG [HttpClientImpl] set-cookie: lang=en; Path=/
+2017-07-05 12:58:58,859 DEBUG [HttpClientImpl] content-length: 869
+2017-07-05 12:58:58,859 DEBUG [HttpClientImpl] content-disposition: attachment; filename=json.json
+2017-07-05 12:58:58,859 DEBUG [HttpClientImpl] server: tsa_l
+2017-07-05 12:58:58,859 DEBUG [HttpClientImpl] strict-transport-security: max-age=631138519
+2017-07-05 12:58:58,860 DEBUG [HttpClientImpl] x-tsa-request-body-time: 1
+2017-07-05 12:58:58,860 DEBUG [HttpClientImpl] x-twitter-response-tags: BouncerCompliant
+2017-07-05 12:58:58,860 DEBUG [HttpClientImpl] x-access-level: read-write
+2017-07-05 12:58:58,879 DEBUG [HttpResponseImpl] {"contributors":null,"text":"Still under maintenance? Oh dear!","geo":null,"retweeted":false,"in_reply_to_screen_name":null,"truncated":false,"lang":"en","entities":{"symbols":[],"urls":[],"hashtags":[],"user_mentions":[]},"in_reply_to_status_id_str":null,"is_quote_status":false,"id":882463793573384192,"source":"<a href=\"http://diceroller.com\" rel=\"nofollow\">RollingADiceApp<\/a>","in_reply_to_user_id_str":null,"favorited":false,"in_reply_to_status_id":null,"retweet_count":0,"created_at":"Wed Jul 05 04:58:58 +0000 2017","in_reply_to_user_id":null,"favorite_count":0,"id_str":"882463793573384192","place":null,"user":{"location":"","default_profile":true,"profile_background_tile":false,"statuses_count":44876,"lang":"en","profile_link_color":"1DA1F2","profile_banner_url":"https://pbs.twimg.com/profile_banners/827777769895440385/1486193084","id":827777769895440385,"following":false,"protected":false,"favourites_count":0,"profile_text_color":"333333","description":"Rolls a number of ? every 120 seconds. That's it.","verified":false,"contributors_enabled":false,"profile_sidebar_border_color":"C0DEED","name":"Roll A Dice","profile_background_color":"F5F8FA","created_at":"Sat Feb 04 07:16:14 +0000 2017","is_translation_enabled":false,"default_profile_image":false,"followers_count":6,"has_extended_profile":false,"profile_image_url_https":"https://pbs.twimg.com/profile_images/827779161724891137/VuCCgD1w_normal.jpg","geo_enabled":false,"profile_background_image_url":null,"profile_background_image_url_https":null,"follow_request_sent":false,"entities":{"description":{"urls":[]}},"url":null,"utc_offset":null,"time_zone":null,"translator_type":"none","notifications":false,"profile_use_background_image":true,"friends_count":22,"profile_sidebar_fill_color":"DDEEF6","screen_name":"dicerollnumber","id_str":"827777769895440385","profile_image_url":"http://pbs.twimg.com/profile_images/827779161724891137/VuCCgD1w_normal.jpg","listed_count":0,"is_translator":false},"coordinates":null}
+2017-07-05 12:58:58,888 INFO  [TwitterService] Successfully updated the status to [Still under maintenance? Oh dear!].
+2017-07-05 12:58:58,888 INFO  [TwitterService] Twitter service executed
