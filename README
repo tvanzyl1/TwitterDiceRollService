@@ -1,2 +1,8 @@
 This application will just tweet out a few dice rolls every 2 minutes.
+It uses log4j but the appender is just in code and not in a separate properties
+file.
+
+You will just have to ad your own Twitter application token keys in 
+TwitterService.java.
+
 
